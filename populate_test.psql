@@ -1,0 +1,8 @@
+
+CREATE TABLE test ( name text,
+date text );
+
+INSERT INTO test
+	SELECT * FROM ext_tbls WHERE name='21';
+
+SELECT * FROM test;

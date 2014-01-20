@@ -1,0 +1,6 @@
+DROP EXTERNAL TABLE IF EXISTS ext_tbls_wr;
+
+CREATE WRITABLE EXTERNAL TABLE ext_tbls_wr ( name text,
+date text )
+LOCATION ('gphdfs://apnn11:8020/data/greenplum/etbwr/')
+FORMAT 'TEXT' (DELIMITER '|');

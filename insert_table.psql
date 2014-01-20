@@ -1,0 +1,5 @@
+INSERT INTO test
+SELECT * from ext_tbls where name='21';
+
+select * from test;
+

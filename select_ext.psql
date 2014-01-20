@@ -1,0 +1,2 @@
+select * from ext_tbls;
+select count(*) from ext_tbls;

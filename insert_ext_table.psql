@@ -1,0 +1,10 @@
+INSERT INTO ext_tbls_wr 
+	SELECT * FROM test;
+
+INSERT INTO ext_tbls_wr 
+	SELECT * FROM ext_tbls;
+
+SELECT * FROM ext_tbls_wr;
+
+
+
